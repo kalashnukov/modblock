@@ -1,0 +1,14 @@
+name: ModBlock
+version: '1.0.0'
+main: com.skcode.modblock.ModBlock
+api-version: '1.21'
+author: lnxsn
+description: Блокировка запрещённых модов по сетевым каналам
+
+permissions:
+  skcode.bypass:
+    description: Игнорируется проверкой модов
+    default: false
+  skcode.alerts:
+    description: Получать алерты об обнаруженных модах
+    default: op
